@@ -53,6 +53,8 @@ public class Granny : MonoBehaviour {
                         body.AddForce(transform.up * 6, ForceMode2D.Impulse);
                         isGrounded = false;
                     }
+
+                    
                 }
 
                 if (Input.GetButtonDown("Fire1") && !isAttacking)
